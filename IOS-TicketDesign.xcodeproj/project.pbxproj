@@ -1,0 +1,704 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A34C649C2A0AA85A0030B103 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C649B2A0AA85A0030B103 /* AppDelegate.swift */; };
+		A34C649E2A0AA85A0030B103 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C649D2A0AA85A0030B103 /* SceneDelegate.swift */; };
+		A34C64A02A0AA85A0030B103 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C649F2A0AA85A0030B103 /* ViewController.swift */; };
+		A34C64A32A0AA85A0030B103 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C64A12A0AA85A0030B103 /* Main.storyboard */; };
+		A34C64A62A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A34C64A42A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodeld */; };
+		A34C64A82A0AA85B0030B103 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A34C64A72A0AA85B0030B103 /* Assets.xcassets */; };
+		A34C64AB2A0AA85B0030B103 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A34C64A92A0AA85B0030B103 /* LaunchScreen.storyboard */; };
+		A34C64B62A0AA85B0030B103 /* IOS_TicketDesignTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64B52A0AA85B0030B103 /* IOS_TicketDesignTests.swift */; };
+		A34C64C02A0AA85B0030B103 /* IOS_TicketDesignUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64BF2A0AA85B0030B103 /* IOS_TicketDesignUITests.swift */; };
+		A34C64C22A0AA85B0030B103 /* IOS_TicketDesignUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64C12A0AA85B0030B103 /* IOS_TicketDesignUITestsLaunchTests.swift */; };
+		A34C64CF2A0AA9760030B103 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64CE2A0AA9760030B103 /* UIViewExtensions.swift */; };
+		A34C64D22A0AAA280030B103 /* TxnAmountContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64D12A0AAA280030B103 /* TxnAmountContainer.swift */; };
+		A34C64D42A0AAA4E0030B103 /* BaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64D32A0AAA4E0030B103 /* BaseView.swift */; };
+		A34C64D62A0AAAC90030B103 /* TxnSuccessTopContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64D52A0AAAC90030B103 /* TxnSuccessTopContainer.swift */; };
+		A34C64D82A0AAB090030B103 /* CornerShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64D72A0AAB090030B103 /* CornerShadowView.swift */; };
+		A34C64DA2A0AAC350030B103 /* ExpandCollapseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64D92A0AAC350030B103 /* ExpandCollapseView.swift */; };
+		A34C64DC2A0AAC770030B103 /* ArchDashLineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64DB2A0AAC770030B103 /* ArchDashLineView.swift */; };
+		A34C64DE2A0AAC9E0030B103 /* ArchDashViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64DD2A0AAC9E0030B103 /* ArchDashViewExt.swift */; };
+		A34C64E12A0AAD680030B103 /* UILabelExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64E02A0AAD680030B103 /* UILabelExtensions.swift */; };
+		A34C64E32A0AADC80030B103 /* UIStackViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64E22A0AADC80030B103 /* UIStackViewExt.swift */; };
+		A34C64E52A0AAE680030B103 /* ReceiptConfirmationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64E42A0AAE680030B103 /* ReceiptConfirmationView.swift */; };
+		A34C64E72A0AAE8B0030B103 /* KeyValueLabelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64E62A0AAE8B0030B103 /* KeyValueLabelView.swift */; };
+		A34C64E92A0AAF880030B103 /* RainBowArchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64E82A0AAF880030B103 /* RainBowArchView.swift */; };
+		A34C64EC2A0AB22C0030B103 /* TargetCallback.swift in Sources */ = {isa = PBXBuildFile; fileRef = A34C64EB2A0AB22C0030B103 /* TargetCallback.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A34C64B22A0AA85B0030B103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C64902A0AA85A0030B103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C64972A0AA85A0030B103;
+			remoteInfo = "IOS-TicketDesign";
+		};
+		A34C64BC2A0AA85B0030B103 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A34C64902A0AA85A0030B103 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A34C64972A0AA85A0030B103;
+			remoteInfo = "IOS-TicketDesign";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A34C64982A0AA85A0030B103 /* IOS-TicketDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IOS-TicketDesign.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C649B2A0AA85A0030B103 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A34C649D2A0AA85A0030B103 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A34C649F2A0AA85A0030B103 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A34C64A22A0AA85A0030B103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A34C64A52A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = IOS_TicketDesign.xcdatamodel; sourceTree = "<group>"; };
+		A34C64A72A0AA85B0030B103 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A34C64AA2A0AA85B0030B103 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A34C64AC2A0AA85B0030B103 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A34C64B12A0AA85B0030B103 /* IOS-TicketDesignTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-TicketDesignTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C64B52A0AA85B0030B103 /* IOS_TicketDesignTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_TicketDesignTests.swift; sourceTree = "<group>"; };
+		A34C64BB2A0AA85B0030B103 /* IOS-TicketDesignUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "IOS-TicketDesignUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A34C64BF2A0AA85B0030B103 /* IOS_TicketDesignUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_TicketDesignUITests.swift; sourceTree = "<group>"; };
+		A34C64C12A0AA85B0030B103 /* IOS_TicketDesignUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IOS_TicketDesignUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A34C64CE2A0AA9760030B103 /* UIViewExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtensions.swift; sourceTree = "<group>"; };
+		A34C64D12A0AAA280030B103 /* TxnAmountContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnAmountContainer.swift; sourceTree = "<group>"; };
+		A34C64D32A0AAA4E0030B103 /* BaseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseView.swift; sourceTree = "<group>"; };
+		A34C64D52A0AAAC90030B103 /* TxnSuccessTopContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TxnSuccessTopContainer.swift; sourceTree = "<group>"; };
+		A34C64D72A0AAB090030B103 /* CornerShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CornerShadowView.swift; sourceTree = "<group>"; };
+		A34C64D92A0AAC350030B103 /* ExpandCollapseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpandCollapseView.swift; sourceTree = "<group>"; };
+		A34C64DB2A0AAC770030B103 /* ArchDashLineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDashLineView.swift; sourceTree = "<group>"; };
+		A34C64DD2A0AAC9E0030B103 /* ArchDashViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArchDashViewExt.swift; sourceTree = "<group>"; };
+		A34C64E02A0AAD680030B103 /* UILabelExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtensions.swift; sourceTree = "<group>"; };
+		A34C64E22A0AADC80030B103 /* UIStackViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIStackViewExt.swift; sourceTree = "<group>"; };
+		A34C64E42A0AAE680030B103 /* ReceiptConfirmationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiptConfirmationView.swift; sourceTree = "<group>"; };
+		A34C64E62A0AAE8B0030B103 /* KeyValueLabelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyValueLabelView.swift; sourceTree = "<group>"; };
+		A34C64E82A0AAF880030B103 /* RainBowArchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainBowArchView.swift; sourceTree = "<group>"; };
+		A34C64EB2A0AB22C0030B103 /* TargetCallback.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetCallback.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A34C64952A0AA85A0030B103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64AE2A0AA85B0030B103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64B82A0AA85B0030B103 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A34C648F2A0AA85A0030B103 = {
+			isa = PBXGroup;
+			children = (
+				A34C649A2A0AA85A0030B103 /* IOS-TicketDesign */,
+				A34C64B42A0AA85B0030B103 /* IOS-TicketDesignTests */,
+				A34C64BE2A0AA85B0030B103 /* IOS-TicketDesignUITests */,
+				A34C64992A0AA85A0030B103 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A34C64992A0AA85A0030B103 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64982A0AA85A0030B103 /* IOS-TicketDesign.app */,
+				A34C64B12A0AA85B0030B103 /* IOS-TicketDesignTests.xctest */,
+				A34C64BB2A0AA85B0030B103 /* IOS-TicketDesignUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A34C649A2A0AA85A0030B103 /* IOS-TicketDesign */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64EA2A0AB21B0030B103 /* Utils */,
+				A34C64DF2A0AAD560030B103 /* Extensions */,
+				A34C64D02A0AAA160030B103 /* CustomViews */,
+				A34C649B2A0AA85A0030B103 /* AppDelegate.swift */,
+				A34C649D2A0AA85A0030B103 /* SceneDelegate.swift */,
+				A34C649F2A0AA85A0030B103 /* ViewController.swift */,
+				A34C64A12A0AA85A0030B103 /* Main.storyboard */,
+				A34C64A72A0AA85B0030B103 /* Assets.xcassets */,
+				A34C64A92A0AA85B0030B103 /* LaunchScreen.storyboard */,
+				A34C64AC2A0AA85B0030B103 /* Info.plist */,
+				A34C64A42A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodeld */,
+			);
+			path = "IOS-TicketDesign";
+			sourceTree = "<group>";
+		};
+		A34C64B42A0AA85B0030B103 /* IOS-TicketDesignTests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64B52A0AA85B0030B103 /* IOS_TicketDesignTests.swift */,
+			);
+			path = "IOS-TicketDesignTests";
+			sourceTree = "<group>";
+		};
+		A34C64BE2A0AA85B0030B103 /* IOS-TicketDesignUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64BF2A0AA85B0030B103 /* IOS_TicketDesignUITests.swift */,
+				A34C64C12A0AA85B0030B103 /* IOS_TicketDesignUITestsLaunchTests.swift */,
+			);
+			path = "IOS-TicketDesignUITests";
+			sourceTree = "<group>";
+		};
+		A34C64D02A0AAA160030B103 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64D12A0AAA280030B103 /* TxnAmountContainer.swift */,
+				A34C64D32A0AAA4E0030B103 /* BaseView.swift */,
+				A34C64D52A0AAAC90030B103 /* TxnSuccessTopContainer.swift */,
+				A34C64D72A0AAB090030B103 /* CornerShadowView.swift */,
+				A34C64D92A0AAC350030B103 /* ExpandCollapseView.swift */,
+				A34C64DB2A0AAC770030B103 /* ArchDashLineView.swift */,
+				A34C64DD2A0AAC9E0030B103 /* ArchDashViewExt.swift */,
+				A34C64E42A0AAE680030B103 /* ReceiptConfirmationView.swift */,
+				A34C64E62A0AAE8B0030B103 /* KeyValueLabelView.swift */,
+				A34C64E82A0AAF880030B103 /* RainBowArchView.swift */,
+			);
+			path = CustomViews;
+			sourceTree = "<group>";
+		};
+		A34C64DF2A0AAD560030B103 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64CE2A0AA9760030B103 /* UIViewExtensions.swift */,
+				A34C64E02A0AAD680030B103 /* UILabelExtensions.swift */,
+				A34C64E22A0AADC80030B103 /* UIStackViewExt.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		A34C64EA2A0AB21B0030B103 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				A34C64EB2A0AB22C0030B103 /* TargetCallback.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A34C64972A0AA85A0030B103 /* IOS-TicketDesign */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C64C52A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesign" */;
+			buildPhases = (
+				A34C64942A0AA85A0030B103 /* Sources */,
+				A34C64952A0AA85A0030B103 /* Frameworks */,
+				A34C64962A0AA85A0030B103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "IOS-TicketDesign";
+			productName = "IOS-TicketDesign";
+			productReference = A34C64982A0AA85A0030B103 /* IOS-TicketDesign.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A34C64B02A0AA85B0030B103 /* IOS-TicketDesignTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C64C82A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesignTests" */;
+			buildPhases = (
+				A34C64AD2A0AA85B0030B103 /* Sources */,
+				A34C64AE2A0AA85B0030B103 /* Frameworks */,
+				A34C64AF2A0AA85B0030B103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C64B32A0AA85B0030B103 /* PBXTargetDependency */,
+			);
+			name = "IOS-TicketDesignTests";
+			productName = "IOS-TicketDesignTests";
+			productReference = A34C64B12A0AA85B0030B103 /* IOS-TicketDesignTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A34C64BA2A0AA85B0030B103 /* IOS-TicketDesignUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A34C64CB2A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesignUITests" */;
+			buildPhases = (
+				A34C64B72A0AA85B0030B103 /* Sources */,
+				A34C64B82A0AA85B0030B103 /* Frameworks */,
+				A34C64B92A0AA85B0030B103 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A34C64BD2A0AA85B0030B103 /* PBXTargetDependency */,
+			);
+			name = "IOS-TicketDesignUITests";
+			productName = "IOS-TicketDesignUITests";
+			productReference = A34C64BB2A0AA85B0030B103 /* IOS-TicketDesignUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A34C64902A0AA85A0030B103 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A34C64972A0AA85A0030B103 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					A34C64B02A0AA85B0030B103 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A34C64972A0AA85A0030B103;
+					};
+					A34C64BA2A0AA85B0030B103 = {
+						CreatedOnToolsVersion = 14.3;
+						TestTargetID = A34C64972A0AA85A0030B103;
+					};
+				};
+			};
+			buildConfigurationList = A34C64932A0AA85A0030B103 /* Build configuration list for PBXProject "IOS-TicketDesign" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A34C648F2A0AA85A0030B103;
+			productRefGroup = A34C64992A0AA85A0030B103 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A34C64972A0AA85A0030B103 /* IOS-TicketDesign */,
+				A34C64B02A0AA85B0030B103 /* IOS-TicketDesignTests */,
+				A34C64BA2A0AA85B0030B103 /* IOS-TicketDesignUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A34C64962A0AA85A0030B103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C64AB2A0AA85B0030B103 /* LaunchScreen.storyboard in Resources */,
+				A34C64A82A0AA85B0030B103 /* Assets.xcassets in Resources */,
+				A34C64A32A0AA85A0030B103 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64AF2A0AA85B0030B103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64B92A0AA85B0030B103 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A34C64942A0AA85A0030B103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C64D62A0AAAC90030B103 /* TxnSuccessTopContainer.swift in Sources */,
+				A34C64E92A0AAF880030B103 /* RainBowArchView.swift in Sources */,
+				A34C64E32A0AADC80030B103 /* UIStackViewExt.swift in Sources */,
+				A34C64EC2A0AB22C0030B103 /* TargetCallback.swift in Sources */,
+				A34C64A02A0AA85A0030B103 /* ViewController.swift in Sources */,
+				A34C64E72A0AAE8B0030B103 /* KeyValueLabelView.swift in Sources */,
+				A34C64DE2A0AAC9E0030B103 /* ArchDashViewExt.swift in Sources */,
+				A34C64E12A0AAD680030B103 /* UILabelExtensions.swift in Sources */,
+				A34C64CF2A0AA9760030B103 /* UIViewExtensions.swift in Sources */,
+				A34C64A62A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodeld in Sources */,
+				A34C64D82A0AAB090030B103 /* CornerShadowView.swift in Sources */,
+				A34C649C2A0AA85A0030B103 /* AppDelegate.swift in Sources */,
+				A34C64E52A0AAE680030B103 /* ReceiptConfirmationView.swift in Sources */,
+				A34C64D42A0AAA4E0030B103 /* BaseView.swift in Sources */,
+				A34C64D22A0AAA280030B103 /* TxnAmountContainer.swift in Sources */,
+				A34C649E2A0AA85A0030B103 /* SceneDelegate.swift in Sources */,
+				A34C64DA2A0AAC350030B103 /* ExpandCollapseView.swift in Sources */,
+				A34C64DC2A0AAC770030B103 /* ArchDashLineView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64AD2A0AA85B0030B103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C64B62A0AA85B0030B103 /* IOS_TicketDesignTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A34C64B72A0AA85B0030B103 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A34C64C22A0AA85B0030B103 /* IOS_TicketDesignUITestsLaunchTests.swift in Sources */,
+				A34C64C02A0AA85B0030B103 /* IOS_TicketDesignUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A34C64B32A0AA85B0030B103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C64972A0AA85A0030B103 /* IOS-TicketDesign */;
+			targetProxy = A34C64B22A0AA85B0030B103 /* PBXContainerItemProxy */;
+		};
+		A34C64BD2A0AA85B0030B103 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A34C64972A0AA85A0030B103 /* IOS-TicketDesign */;
+			targetProxy = A34C64BC2A0AA85B0030B103 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A34C64A12A0AA85A0030B103 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C64A22A0AA85A0030B103 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A34C64A92A0AA85B0030B103 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A34C64AA2A0AA85B0030B103 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A34C64C32A0AA85B0030B103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A34C64C42A0AA85B0030B103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A34C64C62A0AA85B0030B103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-TicketDesign/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A34C64C72A0AA85B0030B103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "IOS-TicketDesign/Info.plist";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesign";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A34C64C92A0AA85B0030B103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-TicketDesign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOS-TicketDesign";
+			};
+			name = Debug;
+		};
+		A34C64CA2A0AA85B0030B103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesignTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IOS-TicketDesign.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/IOS-TicketDesign";
+			};
+			name = Release;
+		};
+		A34C64CC2A0AA85B0030B103 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-TicketDesign";
+			};
+			name = Debug;
+		};
+		A34C64CD2A0AA85B0030B103 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 65JHC6K66H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.junkeritechnepal.IOS-TicketDesignUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "IOS-TicketDesign";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A34C64932A0AA85A0030B103 /* Build configuration list for PBXProject "IOS-TicketDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C64C32A0AA85B0030B103 /* Debug */,
+				A34C64C42A0AA85B0030B103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C64C52A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesign" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C64C62A0AA85B0030B103 /* Debug */,
+				A34C64C72A0AA85B0030B103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C64C82A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesignTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C64C92A0AA85B0030B103 /* Debug */,
+				A34C64CA2A0AA85B0030B103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A34C64CB2A0AA85B0030B103 /* Build configuration list for PBXNativeTarget "IOS-TicketDesignUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A34C64CC2A0AA85B0030B103 /* Debug */,
+				A34C64CD2A0AA85B0030B103 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A34C64A42A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A34C64A52A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodel */,
+			);
+			currentVersion = A34C64A52A0AA85A0030B103 /* IOS_TicketDesign.xcdatamodel */;
+			path = IOS_TicketDesign.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A34C64902A0AA85A0030B103 /* Project object */;
+}
