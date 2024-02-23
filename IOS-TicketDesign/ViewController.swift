@@ -18,7 +18,7 @@ public final class ViewController: UIViewController {
     }()
     
     private lazy var containerBackgroundImage: UIImageView = {
-        let imageView = UIImageView(image: .init(named: "ic_abstract_bg"), contentMode: .scaleToFill) // replace your container bg
+        let imageView = UIImageView(image: .init(named: "ic_abstract_bg_1"), contentMode: .scaleToFill) // replace your container bg
         return imageView
     }()
     
@@ -54,9 +54,7 @@ public final class ViewController: UIViewController {
             .init(label: "Sender's Number", value: "982134342"),
             .init(label: "Amount", value: "Rs. 1200"),
             .init(label: "Remarks", value: "Utility payment"),
-            .init(label: "Cashback", value: "20"),
-            .init(label: "Invoice", value: "Payment details"),
-            .init(label: "Charge", value: "Rs. 4"),
+            .init(label: "Cashback", value: "20")
         ]
         return view
     }()
